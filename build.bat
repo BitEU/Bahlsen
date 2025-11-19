@@ -115,7 +115,7 @@ if %ERRORLEVEL% EQU 0 (
     echo Output: Bahlsen_univac.exe
 
     REM Display file size
-    for %%A in (Bahlsen_univac.exe^) do (
+    for %%A in (Bahlsen_univac.exe) do (
         echo File size: %%~zA bytes
     )
     echo.
